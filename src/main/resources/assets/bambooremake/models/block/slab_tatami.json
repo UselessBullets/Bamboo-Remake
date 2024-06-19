@@ -1,83 +1,23 @@
 {
-  "credit": "Made with Blockbench",
-  "textures": {
-    "particle": "bambooremake:block/slab_tatami_side",
-    "side": "bambooremake:block/slab_tatami_side",
-    "top": "bambooremake:block/tatami"
-  },
-  "elements": [
-    {
-      "from": [
-        0,
-        0,
-        0
-      ],
-      "to": [
-        16,
-        8,
-        16
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            0,
-            8,
-            16,
-            16
-          ],
-          "texture": "#side",
-          "cullface": "north"
-        },
-        "east": {
-          "uv": [
-            0,
-            8,
-            16,
-            16
-          ],
-          "texture": "#side",
-          "cullface": "east"
-        },
-        "south": {
-          "uv": [
-            0,
-            8,
-            16,
-            16
-          ],
-          "texture": "#side",
-          "cullface": "south"
-        },
-        "west": {
-          "uv": [
-            0,
-            8,
-            16,
-            16
-          ],
-          "texture": "#side",
-          "cullface": "west"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            16,
-            16
-          ],
-          "texture": "#top"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            16,
-            16
-          ],
-          "texture": "#top",
-          "cullface": "down"
-        }
-      }
-    }
-  ]
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "bambooremake:block/slab_tatami_side",
+		"side": "bambooremake:block/slab_tatami_side",
+		"top": "bambooremake:block/tatami"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 0, "axis": "z", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#top"},
+				"east": {"uv": [0, 8, 16, 16], "rotation": 90, "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "down"},
+				"west": {"uv": [0, 8, 16, 16], "rotation": 270, "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 8, 16, 16], "texture": "#side", "cullface": "south"},
+				"down": {"uv": [0, 8, 16, 16], "rotation": 180, "texture": "#side", "cullface": "north"}
+			}
+		}
+	]
 }

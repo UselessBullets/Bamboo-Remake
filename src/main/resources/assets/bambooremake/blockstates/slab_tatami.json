@@ -1,31 +1,40 @@
 {
   "variants": {
-    "facing=z,half=bottom": {
+    "facing=north,doubled=false": {
       "model": "bambooremake:block/slab_tatami"
     },
-    "facing=z,half=double": {
+    "facing=north,doubled=true": {
       "model": "bambooremake:block/slab_tatami_double",
       "uvlock": true
     },
-    "facing=z,half=top": {
-      "model": "bambooremake:block/slab_tatami_top",
+    "facing=south,doubled=false": {
+      "model": "bambooremake:block/slab_tatami",
       "uvlock": true,
-      "x": 180
+      "y": 180
     },
-    "facing=x,half=bottom": {
+    "facing=south,doubled=true": {
+      "model": "bambooremake:block/slab_tatami_double",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=east,doubled=false": {
+      "model": "bambooremake:block/slab_tatami",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,doubled=true": {
+      "model": "bambooremake:block/slab_tatami_double",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=west,doubled=false": {
       "model": "bambooremake:block/slab_tatami",
       "uvlock": true,
       "y": 270
     },
-    "facing=x,half=double": {
+    "facing=west,doubled=true": {
       "model": "bambooremake:block/slab_tatami_double",
       "uvlock": true,
-      "y": 270
-    },
-    "facing=x,half=top": {
-      "model": "bambooremake:block/slab_tatami_top",
-      "uvlock": true,
-      "x": 180,
       "y": 270
     }
   }
